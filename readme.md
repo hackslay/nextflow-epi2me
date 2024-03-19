@@ -15,11 +15,15 @@ If there's an error with the docker, go back to the epi2me document and follow S
 The final step of the epi2me help doc is incomplete. For the final step follow the instructions here instead: https://github.com/epi2me-labs/wf-template.git
 
 Particularly run the following to download test data first:
-```wget https://ont-exd-int-s3-euwst1-epi2me-labs.s3.amazonaws.com/wf-template/wf-template-demo.tar.gz
-tar -xzvf wf-template-demo.tar.gz```
+```
+wget https://ont-exd-int-s3-euwst1-epi2me-labs.s3.amazonaws.com/wf-template/wf-template-demo.tar.gz
+tar -xzvf wf-template-demo.tar.gz
+```
 
 The workflow can be run with the demo data using:
-```nextflow run epi2me-labs/wf-template \
+```
+nextflow run epi2me-labs/wf-template \
 --fastq wf-template-demo/test_data/reads.fastq.gz \
--profile standard```
+-profile standard
+```
 
