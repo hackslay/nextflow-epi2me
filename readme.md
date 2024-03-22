@@ -39,3 +39,12 @@ nextflow run epi2me-labs/wf-template \
 -profile standard
 ```
 
+## How to open the WSL directory in Windows File Explorer
+After all the commands have been succesfully run, we now have to transfer real data to the WSL environment where Nextflow is installed. 
+To open the current WSL directory, use the command:
+```
+explorer.exe .
+```
+This should open a new Windows File Explorer Window.
+Copy your files in there. Either override the sample data or create a new folder.
+
